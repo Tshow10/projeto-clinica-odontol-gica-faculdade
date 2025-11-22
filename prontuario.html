@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Prontuário Médico - OdontoTopClean</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="btn-home">🏠 Início</a>
+    <h2>OdontoTopClean</h2>
+  </header>
+
+  <div class="container">
+    <h1>Prontuário Médico</h1>
+    <form id="formProntuario">
+      <label>Nome do paciente:</label>
+      <input type="text" required>
+
+      <label>Data da consulta:</label>
+      <input type="date" required>
+
+      <label>Descrição do atendimento:</label>
+      <textarea required></textarea>
+
+      <label>Prescrição/Observações:</label>
+      <textarea></textarea>
+
+      <button type="submit">Salvar Prontuário</button>
+    </form>
+    <p id="msgProntuario"></p>
+  </div>
+</body>
+</html>

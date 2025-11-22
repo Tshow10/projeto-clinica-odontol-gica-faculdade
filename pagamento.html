@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagamentos - OdontoTopClean</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="btn-home">🏠 Início</a>
+    <h2>OdontoTopClean</h2>
+  </header>
+
+  <div class="container">
+    <h1>Área de Pagamentos</h1>
+    <form id="formPagamento">
+      <label>Nome do paciente:</label>
+      <input type="text" required>
+
+      <label>Valor (R$):</label>
+      <input type="number" step="0.01" required>
+
+      <label>Forma de pagamento:</label>
+      <select required>
+        <option>Cartão de Crédito</option>
+        <option>Cartão de Débito</option>
+        <option>Pix</option>
+        <option>Dinheiro</option>
+      </select>
+
+      <button type="submit">Registrar Pagamento</button>
+    </form>
+    <p id="msgPagamento"></p>
+  </div>
+</body>
+</html>
